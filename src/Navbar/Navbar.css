@@ -1,0 +1,46 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #3ebfff;
+  color: white;
+}
+
+header .nav-logo-div .nav-logo {
+  font-size: 1.5rem;
+  margin: 0 1em;
+}
+
+header .nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav-list .nav-list-item {
+  margin: 0 1em 0 2em;
+}
+
+header .nav-list .nav-list-item .nav-list-button {
+  background-color: white;
+  color: black;
+  padding: 1em 1.8em;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: none;
+}
+/*# sourceMappingURL=Navbar.css.map */

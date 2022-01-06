@@ -1,0 +1,45 @@
+.hero {
+  margin: 0;
+  padding: 0;
+  background-color: #3ebfff;
+  color: white;
+}
+
+.hero .hero-image-container {
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+
+.hero .hero-image-container .hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  letter-spacing: .1rem;
+  font-size: 3rem;
+}
+
+.hero .hero-image-container .hero-arrow-down {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.hero .hero-image-container .hero-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Hero.css.map */

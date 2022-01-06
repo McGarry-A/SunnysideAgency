@@ -1,0 +1,39 @@
+.hero {
+    margin: 0;
+    padding: 0;
+    background-color: #3ebfff;
+    color:white;
+
+    
+
+    .hero-image-container {
+        position: relative;
+        width: 100%;
+        height: 900px;
+
+        .hero-text {
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            position: absolute;
+            left: 50%;
+            top: 35%;
+            transform: translate(-50%,-50%);
+            letter-spacing: .1rem;
+            font-size: 3rem;
+        }
+
+        .hero-arrow-down {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
