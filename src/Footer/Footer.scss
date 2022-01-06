@@ -1,0 +1,38 @@
+.footer {
+  background-color: hsl(168, 34%, 41%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: hsl(167, 40%, 24%);
+
+  .footer-logo {
+    margin-top: 50px;
+    font-size: 2rem;
+  }
+
+  .footer-links {
+    .footer-links-list {
+      list-style: none;
+      display: flex;
+      margin-top: 20px;
+
+      .footer-link-item {
+        margin: 0 1em;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .footer-socails {
+    .footer-socials-list {
+      display: flex;
+      list-style: none;
+
+      .footer-social-link {
+          margin: 0 1em;
+          padding-bottom: 50px;;
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ import DualImages from "./DualImages/DualImages.js"
 import { data } from "./data";
 import Testimonials from "./Testimonials/Testimonials.js"
 import ImageRow from "./ImageRow/ImageRow.js"
+import Footer from "./Footer/Footer";
 function App() {
   return (
     <div className="app">
@@ -17,6 +18,7 @@ function App() {
       <DualImages />
       <Testimonials />
       <ImageRow />
+      <Footer />
     </div>
   );
 }
