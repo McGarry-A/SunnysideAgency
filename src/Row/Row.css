@@ -19,6 +19,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .row .col-1 .col-text {
@@ -54,6 +57,7 @@
   color: black;
   text-decoration: none;
   font-size: .8rem;
+  margin: 0;
 }
 
 .row .col-2 {
