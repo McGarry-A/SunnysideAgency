@@ -33,6 +33,7 @@ header .nav-list {
 
 header .nav-list .nav-list-item {
   margin: 0 1em 0 2em;
+  font-family: 'Barlow', sans-serif;
 }
 
 header .nav-list .nav-list-item .nav-list-button {

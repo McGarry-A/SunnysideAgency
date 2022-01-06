@@ -1,0 +1,9 @@
+.image-row {
+    display: flex;
+    width: 100%;
+
+    .image-item {
+        object-fit: cover;
+        width: 25%;
+    }
+}

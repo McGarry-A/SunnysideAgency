@@ -17,21 +17,37 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 3em 5em;
+  width: 100%;
 }
 
-.row .col-1 .col-title {
+.row .col-1 .col-text {
+  padding: 0 4em;
+}
+
+.row .col-1 .col-text .col-title {
   padding: 1em 0;
 }
 
-.row .col-1 .col-subtitle {
+.row .col-1 .col-text .col-subtitle {
   padding: 1em 0;
+  font-family: 'Barlow', sans-serif;
 }
 
-.row .col-1 .col-link {
+.row .col-1 .col-text .col-link {
   padding: 1em 0;
   text-transform: uppercase;
   color: black;
   text-decoration: none;
+}
+
+.row .col-2 {
+  width: 100%;
+}
+
+.row .col-2 .col-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 /*# sourceMappingURL=Row.css.map */

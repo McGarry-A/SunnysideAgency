@@ -1,0 +1,36 @@
+.ci {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.ci .ci-col {
+  width: 50%;
+}
+
+.ci .ci-col .ci-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ci .ci-col .ci-col-text {
+  position: absolute;
+  top: 400px;
+  width: 25%;
+  text-align: center;
+}
+
+.ci .ci-col .ci-col-text .ci-col-title {
+  font-size: 2rem;
+  padding-bottom: 1em;
+  font-family: 'Fraunces';
+}
+
+.ci .ci-col .ci-col-text .ci-col-subtext {
+  font-family: 'Barlow';
+}
+/*# sourceMappingURL=DualImages.css.map */

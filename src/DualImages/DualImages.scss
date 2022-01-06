@@ -1,0 +1,29 @@
+.ci {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .ci-col {
+    width: 50%;
+    .ci-image {
+        object-fit: cover;
+    }
+
+    .ci-col-text {
+        position: absolute;
+        top: 400px;
+        width: 25%;
+        text-align: center;
+
+        .ci-col-title {
+            font-size: 2rem;
+            padding-bottom: 1em;
+            font-family: 'Fraunces';
+        }
+
+        .ci-col-subtext {
+            font-family: 'Barlow';
+        }
+    }
+  }
+}

@@ -13,7 +13,6 @@ header {
         }
     }
     .nav-list {
-        
         list-style: none;
         display: flex;
         justify-content: flex-end;
@@ -21,7 +20,7 @@ header {
 
         .nav-list-item {
             margin: 0 1em 0 2em;
-
+            font-family: 'Barlow', sans-serif;
 
             .nav-list-button {
                 background-color: white;

@@ -1,0 +1,38 @@
+.testimonial-body {
+  border-radius: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonial-body .avatar-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.testimonial-body blockquote {
+  padding: 0 3.2em;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 60px;
+}
+
+.testimonial-body cite {
+  font-style: normal;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=Testimonial.css.map */

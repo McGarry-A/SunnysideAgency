@@ -1,0 +1,13 @@
+.image-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.image-row .image-item {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 25%;
+}
+/*# sourceMappingURL=ImageRow.css.map */
