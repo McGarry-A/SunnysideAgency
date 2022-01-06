@@ -11,10 +11,11 @@ header {
           justify-content: space-between;
   background-color: #3ebfff;
   color: white;
+  padding: 1em;
 }
 
 header .nav-logo-div .nav-logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0 1em;
 }
 
@@ -38,7 +39,7 @@ header .nav-list .nav-list-item {
 
 header .nav-list .nav-list-item .nav-list-button {
   background-color: white;
-  color: black;
+  color: #23303e;
   padding: 1em 1.8em;
   text-transform: uppercase;
   border-radius: 50px;

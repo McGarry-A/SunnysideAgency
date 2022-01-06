@@ -33,4 +33,12 @@
 .ci .ci-col .ci-col-text .ci-col-subtext {
   font-family: 'Barlow';
 }
+
+.ci .ci-col .cyan {
+  color: #25564b;
+}
+
+.ci .ci-col .blue {
+  color: #19536b;
+}
 /*# sourceMappingURL=DualImages.css.map */

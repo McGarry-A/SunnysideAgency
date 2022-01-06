@@ -6,7 +6,7 @@ const Testimonial = ({ image, quote, author, role }) => {
       <img src={image} alt="avatar" className="avatar-image" />
       <blockquote>{quote}</blockquote>
       <cite>{author}</cite>
-      <p>{role}</p>
+      <p className="role">{role}</p>
     </div>
   );
 };

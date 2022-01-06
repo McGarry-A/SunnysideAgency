@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
 .testimonial-body {
   border-radius: 1px solid black;
   display: -webkit-box;
@@ -24,9 +25,10 @@
 }
 
 .testimonial-body blockquote {
+  font-family: 'Barlow', sans-serif;
   padding: 0 3.2em;
   text-align: center;
-  font-weight: lighter;
+  font-style: normal;
   margin-bottom: 60px;
 }
 
@@ -34,5 +36,10 @@
   font-style: normal;
   font-size: 1.1rem;
   margin-bottom: 10px;
+}
+
+.testimonial-body .role {
+  font-family: 'Barlow', sans-serif;
+  font-size: .8rem;
 }
 /*# sourceMappingURL=Testimonial.css.map */

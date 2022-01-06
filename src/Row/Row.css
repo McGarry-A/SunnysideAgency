@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;600&family=Fraunces:wght@700;900&display=swap");
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,15 +23,29 @@
 
 .row .col-1 .col-text {
   padding: 0 4em;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .row .col-1 .col-text .col-title {
-  padding: 1em 0;
+  padding: 0 0 1em 0;
+  font-size: 2.5rem;
 }
 
 .row .col-1 .col-text .col-subtitle {
-  padding: 1em 0;
+  padding: 0 0 1em 0;
   font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .row .col-1 .col-text .col-link {
@@ -38,6 +53,7 @@
   text-transform: uppercase;
   color: black;
   text-decoration: none;
+  font-size: .8rem;
 }
 
 .row .col-2 {
