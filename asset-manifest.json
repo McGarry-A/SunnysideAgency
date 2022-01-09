@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SunnysideAgency/static/css/main.5ae71d6a.css",
+    "main.js": "/SunnysideAgency/static/js/main.ff94d4f4.js",
+    "static/media/image-hero.jpg": "/SunnysideAgency/static/media/image-hero.49b52ffa54752cb7c2d0.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/SunnysideAgency/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/SunnysideAgency/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/SunnysideAgency/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/SunnysideAgency/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-cherries.jpg": "/SunnysideAgency/static/media/image-cherries.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-orange.jpg": "/SunnysideAgency/static/media/image-orange.104cf40b52f66520afb0.jpg",
+    "static/media/icon-instagram.svg": "/SunnysideAgency/static/media/icon-instagram.7d97118aca6da4dd308fbe5b0ad8b9d6.svg",
+    "static/media/icon-pinterest.svg": "/SunnysideAgency/static/media/icon-pinterest.fd8b84da3f15023f2ae8d359495f43db.svg",
+    "index.html": "/SunnysideAgency/index.html",
+    "static/media/icon-twitter.svg": "/SunnysideAgency/static/media/icon-twitter.23df5d421d6e70c35715be06e375f403.svg",
+    "static/media/icon-facebook.svg": "/SunnysideAgency/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
+    "static/media/icon-arrow-down.svg": "/SunnysideAgency/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
+    "main.5ae71d6a.css.map": "/SunnysideAgency/static/css/main.5ae71d6a.css.map",
+    "main.ff94d4f4.js.map": "/SunnysideAgency/static/js/main.ff94d4f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ae71d6a.css",
+    "static/js/main.ff94d4f4.js"
+  ]
+}
