@@ -6,10 +6,16 @@
   box-sizing: border-box;
   font-family: 'Barlow', sans-serif;
   font-family: 'Fraunces', serif;
-  margin: 0 auto;
   max-width: 1440px;
 }
 
 .app {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+html {
   margin: 0 auto;
 }

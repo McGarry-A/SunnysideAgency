@@ -12,7 +12,9 @@
   .image-row {
       display: flex;
       flex-wrap: wrap;
+      width: 100%;
     .image-item {
+      display: flex;
       width: 50%;
       height: 50%;
     }
