@@ -35,3 +35,46 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 500px) {
+  .ci {
+    flex-direction: column;
+    margin:0;
+    padding:0;
+
+    .ci-col {
+      width: 100%;
+      margin: -0.5em 0 0 0;
+      display: flex;
+      justify-content: center;
+
+      .ci-image {
+        object-fit: contain;
+        align-items: center;
+      }
+
+      .ci-col-text {
+        width: 80%;
+
+        .graphic-text {
+          
+        }
+
+        .photography-text {
+          position: absolute;
+          bottom: -690px;
+          text-align: center;
+        }
+
+        .photography-title {
+          position: absolute;
+          bottom: -660px;
+          left: 25%;
+        }
+      }
+
+      
+    }
+  }
+}

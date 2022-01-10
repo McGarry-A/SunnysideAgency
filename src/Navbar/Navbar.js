@@ -1,3 +1,5 @@
+import Hamburger from "../icons/icon-hamburger.svg"
+
 import './Navbar.css'
 const Navbar = () => {
     return (
@@ -11,6 +13,8 @@ const Navbar = () => {
                     <li className='nav-list-item'>Services</li>
                     <li className='nav-list-item'>Projects</li>
                     <li className='nav-list-item'><button className='nav-list-button'>Contact</button></li>
+                    <li><img src={Hamburger} className="nav-hamburger" alt="hamburger"/></li>
+
                 </ul>
             </nav>
         </header>

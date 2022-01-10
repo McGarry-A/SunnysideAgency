@@ -43,4 +43,11 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+@media only screen and (max-width: 500px) {
+  .hero .hero-image-container .hero-text {
+    text-align: center;
+    margin-top: -1em;
+  }
+}
 /*# sourceMappingURL=Hero.css.map */

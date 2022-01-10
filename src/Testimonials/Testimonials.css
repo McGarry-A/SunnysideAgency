@@ -22,4 +22,13 @@
       justify-content: space-around;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 500px) {
+  .testimonials-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=Testimonials.css.map */

@@ -41,4 +41,45 @@
 .ci .ci-col .blue {
   color: #19536b;
 }
+
+@media only screen and (max-width: 500px) {
+  .ci {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .ci .ci-col {
+    width: 100%;
+    margin: -0.5em 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ci .ci-col .ci-image {
+    -o-object-fit: contain;
+       object-fit: contain;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ci .ci-col .ci-col-text {
+    width: 80%;
+  }
+  .ci .ci-col .ci-col-text .photography-text {
+    position: absolute;
+    bottom: -690px;
+    text-align: center;
+  }
+  .ci .ci-col .ci-col-text .photography-title {
+    position: absolute;
+    bottom: -660px;
+    left: 25%;
+  }
+}
 /*# sourceMappingURL=DualImages.css.map */

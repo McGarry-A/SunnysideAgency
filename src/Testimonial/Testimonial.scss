@@ -34,3 +34,19 @@
         font-size: .8rem;
     }
 }
+
+@media screen and (max-width: 500px){
+    .testimonial-body {
+        .avatar-image {
+            margin-bottom: 20px;
+        }
+
+        blockquote {
+            margin-bottom: 20px;
+        }
+        
+        .role {
+            margin-bottom: 50px;
+        }
+    }
+}

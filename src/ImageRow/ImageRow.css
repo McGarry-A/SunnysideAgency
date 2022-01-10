@@ -10,4 +10,18 @@
      object-fit: cover;
   width: 25%;
 }
+
+@media screen and (max-width: 500px) {
+  .image-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .image-row .image-item {
+    width: 50%;
+    height: 50%;
+  }
+}
 /*# sourceMappingURL=ImageRow.css.map */

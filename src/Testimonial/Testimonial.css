@@ -42,4 +42,16 @@
   font-family: 'Barlow', sans-serif;
   font-size: .8rem;
 }
+
+@media screen and (max-width: 500px) {
+  .testimonial-body .avatar-image {
+    margin-bottom: 20px;
+  }
+  .testimonial-body blockquote {
+    margin-bottom: 20px;
+  }
+  .testimonial-body .role {
+    margin-bottom: 50px;
+  }
+}
 /*# sourceMappingURL=Testimonial.css.map */
