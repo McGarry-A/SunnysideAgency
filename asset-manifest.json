@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SunnysideAgency/static/css/main.5ae71d6a.css",
-    "main.js": "/SunnysideAgency/static/js/main.ff94d4f4.js",
+    "main.css": "/SunnysideAgency/static/css/main.8ccc6b05.css",
+    "main.js": "/SunnysideAgency/static/js/main.369d3d7b.js",
     "static/media/image-hero.jpg": "/SunnysideAgency/static/media/image-hero.49b52ffa54752cb7c2d0.jpg",
     "static/media/image-gallery-milkbottles.jpg": "/SunnysideAgency/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
     "static/media/image-gallery-sugarcubes.jpg": "/SunnysideAgency/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
@@ -15,11 +15,12 @@
     "static/media/icon-twitter.svg": "/SunnysideAgency/static/media/icon-twitter.23df5d421d6e70c35715be06e375f403.svg",
     "static/media/icon-facebook.svg": "/SunnysideAgency/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
     "static/media/icon-arrow-down.svg": "/SunnysideAgency/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
-    "main.5ae71d6a.css.map": "/SunnysideAgency/static/css/main.5ae71d6a.css.map",
-    "main.ff94d4f4.js.map": "/SunnysideAgency/static/js/main.ff94d4f4.js.map"
+    "static/media/icon-hamburger.svg": "/SunnysideAgency/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
+    "main.8ccc6b05.css.map": "/SunnysideAgency/static/css/main.8ccc6b05.css.map",
+    "main.369d3d7b.js.map": "/SunnysideAgency/static/js/main.369d3d7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ae71d6a.css",
-    "static/js/main.ff94d4f4.js"
+    "static/css/main.8ccc6b05.css",
+    "static/js/main.369d3d7b.js"
   ]
 }
